@@ -392,12 +392,12 @@ footer p {
     }
     #project-body img {
         display: block;
-        width: 28em;
+        width: 22em;
         border: 2px solid white;
         border-radius: 20%;
         margin: 0 auto;
         margin-top: 3em;
-        height: 30em;
+        height: 22em;
     }
     #project-body {
         display: flex;
