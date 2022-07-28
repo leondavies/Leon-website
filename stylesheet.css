@@ -10,6 +10,34 @@
             scroll-behavior: smooth;
             zoom: 90%;
         }
+        /* NAVIGATION */
+        
+        #nav-menu {
+            display: flex;
+            justify-content: center;
+            gap: 10%;
+            align-items: center;
+            border-bottom: 1px solid #374962;
+            font-size: 1.5em;
+            background-color: #2c3a4e;
+        }
+        
+        #nav-menu a {
+            text-decoration: none;
+            color: #4ADF86;
+        }
+        
+        #nav-menu a:hover {
+            text-shadow: 1px 1px white;
+        }
+        
+        #logo {
+            border: 2px solid white;
+            border-radius: 50%;
+            align-items: center;
+            margin: 1em 0;
+        }
+        /* ARROW BUTTON STYLING */
         
         .wrapper {
             width: 100%;
@@ -100,31 +128,6 @@
             margin-top: 5em;
         }
         
-        #nav-menu {
-            display: flex;
-            justify-content: center;
-            gap: 10%;
-            align-items: center;
-            border-bottom: 1px solid #374962;
-            font-size: 1.5em;
-        }
-        
-        #nav-menu a {
-            text-decoration: none;
-            color: #4ADF86;
-        }
-        
-        #nav-menu a:hover {
-            text-shadow: 1px 1px white;
-        }
-        
-        #logo {
-            border: 2px solid white;
-            border-radius: 50%;
-            align-items: center;
-            margin: 1em 0;
-        }
-        
         .heading {
             display: block;
             color: white;
@@ -209,6 +212,7 @@
             border: 2px solid white;
             margin-bottom: 2em;
         }
+        /* LAPTOP */
         
         @media only screen and (max-width: 1440px) {
             #content-body {
@@ -287,7 +291,7 @@
             align-items: center;
             color: white;
             text-align: center;
-            margin-top: 5em;
+            margin: 24em 0em 28em 0em;
         }
         
         #socials {
@@ -303,18 +307,20 @@
         }
         
         footer {
-            background-color: #0e1319;
+            background-color: #2c3a4e;
             width: 100%;
             border-top: 0.1em solid #4ADF86;
             text-align: center;
             color: white;
+            text-decoration: none;
+            margin: 0;
         }
         
         footer p {
             padding: 2em;
             text-decoration: none;
+            background-color: #2c3a4e;
         }
-        /* LAPTOP */
         /* MOBILE */
         
         @media only screen and (max-width: 1023px) {
@@ -322,8 +328,7 @@
             .arrow {
                 margin-top: 20em !important;
             }
-            #nav-menu,
-            #scroll-btn {
+            #nav-menu {
                 display: none;
             }
             .heading,
@@ -357,6 +362,7 @@
                 font-size: 60px;
                 margin: 0 auto;
             }
+            /* RESPONSIVE NAV MENU */
             /* Style the navigation menu */
             .topnav {
                 display: block;
