@@ -133,7 +133,14 @@
             color: white;
             text-align: center;
             font-size: 1.8em;
-            margin: 0 auto;
+            margin: 1em auto;
+        }
+        
+        .heading h1 {
+            display: inline-block;
+            border-top: 2px solid #4ADF86;
+            border-bottom: 2px solid #4ADF86;
+            padding: 0.5em;
         }
         
         .green {
@@ -156,7 +163,7 @@
         }
         
         #main-image {
-            margin-top: 12em;
+            margin-top: 5em;
         }
         
         #sub-head {
@@ -177,7 +184,7 @@
         
         .heading {
             text-align: center;
-            margin: 3em auto;
+            margin: 1em auto;
         }
         
         #head-effect {
@@ -261,6 +268,8 @@
             color: white;
             font-size: 2em;
             text-shadow: 2px 2px #4ADF86;
+            border-bottom: 1px solid #4ADF86;
+            padding: 0.3em;
         }
         
         #project-body img {
@@ -314,6 +323,7 @@
             color: white;
             text-decoration: none;
             margin: 0;
+            padding: 0;
         }
         
         footer p {
