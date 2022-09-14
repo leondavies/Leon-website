@@ -11,9 +11,7 @@
             zoom: 90%;
         }
         /* NAVIGATION */
-
-
-
+        
         .carousel {
             max-width: 50em;
             position: relative;
@@ -31,7 +29,6 @@
         
         .carousel .carousel-item img {
             width: 100%;
-
             height: auto;
         }
         
@@ -62,10 +59,9 @@
         }
         
         .carousel .carousel-actions button#carousel-button-next {
-            margin-right: -10em;   
+            margin-right: -10em;
         }
-
-
+        
         @keyframes fadeVisibility {
             0% {
                 opacity: 0;
@@ -191,6 +187,10 @@
             margin-top: 5em;
         }
         
+        #bottom-arrow {
+            margin-top: 20em;
+        }
+        
         .heading {
             display: block;
             color: white;
@@ -242,6 +242,10 @@
         #line {
             border: 2px solid #374962;
             margin-top: 1em;
+        }
+        
+        #section-1 {
+            margin-bottom: 14em;
         }
         /* SECTION 2 */
         
@@ -308,10 +312,6 @@
         }
         /* Section 3 */
         
-        #section-3 {
-            margin-bottom: 5em;
-        }
-        
         #line-space {
             border: 2px solid #1F2937;
         }
@@ -322,7 +322,10 @@
             gap: 5%;
             margin-bottom: 5em;
             flex-wrap: wrap;
-
+            margin: 0 auto;
+        }
+        
+        .carousel {
             margin: 0 auto;
         }
         
@@ -399,16 +402,12 @@
         
         @media only screen and (max-width: 1023px) {
             /* Add a black background color to the top navigation */
-
-
             .carousel .carousel-actions button#carousel-button-prev {
                 margin-left: 0em;
             }
-            
             .carousel .carousel-actions button#carousel-button-next {
-                margin-right: 0em;   
+                margin-right: 0em;
             }
-
             .carousel .carousel-actions {
                 display: flex;
                 width: 100%;
@@ -417,9 +416,7 @@
                 position: absolute;
                 top: 100%;
                 transform: translateY(-50%);
-                
             }
-
             .arrow {
                 margin-top: 20em !important;
             }
@@ -505,8 +502,7 @@
                 width: 100%;
                 margin: 0 auto;
             }
-
-            #project-h1{
+            #project-h1 {
                 font-size: 1em !important;
             }
             #project-body img {
